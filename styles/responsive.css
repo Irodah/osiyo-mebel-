@@ -24,7 +24,9 @@
 
 @media only screen and (max-width: 1600px)
 {
-	
+	#logo{
+		display: none;
+	}
 }
 
 /************
@@ -277,7 +279,17 @@
 
 @media only screen and (max-width: 880px)
 {
-	
+	#logo {
+		display: block;
+		position: relative;
+		left: 350px;
+	}
+	.d{
+		/* text-align: right; */
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
 }
 
 /************
@@ -286,6 +298,7 @@
 
 @media only screen and (max-width: 768px)
 {
+	
 	
 }
 
@@ -420,8 +433,14 @@
 12. 480px
 ************/
 
-@media only screen and (max-width: 480px)
+@media only screen and (max-width: 500px)
 {
+	
+	#logo{
+		left: 270px;
+	}
+}
+@media only screen and (max-width: 800px){
 	
 }
 
@@ -678,6 +697,9 @@
 		margin-bottom: 30px;
 	}
 
+	#logo{
+		left: 200px;
+	}
 	
 	
 }
@@ -960,6 +982,10 @@
 	}
 	.b{
 		font-size: 8px;
+	}
+	#logo{
+		position: relative;
+		left: 100px;
 	}
 	
 }
