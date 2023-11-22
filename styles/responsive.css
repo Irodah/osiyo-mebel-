@@ -961,6 +961,7 @@
 	.b{
 		font-size: 8px;
 	}
+	
 }
 @media only screen and (max-width: 479px) {
 	.carousel-item > h3 {
