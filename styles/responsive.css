@@ -520,7 +520,7 @@
 	}
 	.grid_sorting_button
 	{
-		font-size: 12px;
+		font-size: 9px;
 		padding-left: 10px;
 		padding-right: 10px;
 		min-width: 60px;
@@ -545,7 +545,8 @@
 	}
 	.deal_ofthe_week_img
 	{
-		height: 400px;
+
+		height: 300px;
 	}
 	.timer
 	{
@@ -676,13 +677,277 @@
 		margin-top: 5px;
 		margin-bottom: 30px;
 	}
+	
 }
-
 /************
 14. 400px
 ************/
 
-@media only screen and (max-width: 400px)
+@media only screen and (max-width: 350px)
 {
-	
+	.header{
+		width: 390px;
+	}
+	.logo_container a
+	{
+		font-size: 9.5px;
+	}
+	.hamburger_container
+	{
+		margin-left: 20px;
+	}
+	.hamburger_container i
+	{
+		font-size: 12px;
+	}
+	.hamburger_close
+	{
+		top: 12px;
+		right: 3px;
+	}
+	.hamburger_close i
+	{
+		font-size: 180px;
+	}
+	.hamburger_menu_content
+	{
+		padding-right: 12px;
+		padding-top: 80px;
+	}
+	.menu_item
+	{
+		border-bottom-color: rgba(181, 174, 196, 0.5);
+	}
+	.menu_item > a
+	{
+		font-size: 10px;
+		line-height: 30px;
+		height: 30px;
+	}
+	.menu_selection li a
+	{
+		font-size: 10px;
+		line-height: 30px;
+		height: 30px;
+	}
+	.navbar
+	{
+		height: 60px;
+	}
+	.navbar_user li a
+	{
+		width: 25px;
+		height: 25px;
+		font-size: 12px;
+	}
+	.checkout_items
+	{
+		width: 10px;
+		height: 10px;
+		font-size: 10px;		
+	}
+	.main_slider
+	{
+		width: 470px;;
+		height: calc(100vh - 70px);
+		/*height: 80vw;*/
+		min-height: auto;
+		margin-top: 50px;
+	}
+	.main_slider_content h6
+	{
+		width: 430px;
+		margin-bottom: 12px;
+	}
+	.main_slider_content h1
+	{
+		font-size: 22px;
+	}
+	.shop_now_button
+	{
+		margin-top: 12px;
+		width: 80px;
+		height: 30px;
+	}
+	.red_button a
+	{
+		font-size: 8px;
+	}
+	.banner_item
+	{
+		height: calc((100vw - 30px) / 2.6);
+	}
+	.grid_sorting_button
+	{
+		font-size: 10px;
+		padding-left: 8px;
+		padding-right: 8px;
+		min-width: 50px;
+		height: 30px;
+	}
+	.product-item
+	{
+		width: 100%;
+		height: auto;
+	}
+	.product
+	{
+		height: auto;
+	}
+	.product_name a
+	{
+		font-size: 12px;
+	}
+	.add_to_cart_button
+	{
+		margin-top: 18px;
+	}
+	.deal_ofthe_week_img
+	{
+		width: auto;
+		height: 320px;
+	}
+	.timer
+	{
+		margin-top: 38px;
+	}
+	.timer li
+	{
+		width: 40px;
+		height: 40px;
+	}
+	.section_title::after
+	{
+	    top: calc(100% + 4px);
+	    height: 2px;
+	}
+	.timer_num
+	{
+		margin-top: 2px;
+		font-size: 14px;
+	}
+	.timer_unit
+	{
+		margin-top: -9px;
+		font-size: 8px;
+	}
+	.deal_ofthe_week_button
+	{
+		margin-top: 26px;
+	}
+
+	.product_slider_item .product-item
+	{
+		width: 100%;
+		height: auto;
+	}
+	.product_slider_item .product-item:hover::after
+	{
+		box-shadow: none;
+	}
+	.product_slider_item .product-item .product
+	{
+		height: auto;
+	}
+	.product_slider_item .product-item .product_info
+	{
+		padding-bottom: 25px;
+	}
+	.blog_title
+	{
+		font-size: 12px;
+	}
+	.blog_meta
+	{
+		font-size: 8px;
+	}
+	.blog_more
+	{
+		font-size: 8px;
+		margin-top: 3px;
+	}
+	.newsletter_form
+	{
+		margin-top: 16px;
+	}
+	.newsletter_text h4
+	{
+		font-size: 20px;
+	}
+	.newsletter_text p
+	{
+		font-size: 10px;
+		margin-top: 3px;
+	}
+	.newsletter_submit_btn
+	{
+		font-size: 8px;
+	}
+	#newsletter_email
+	{
+		height: 35px;
+		width: 100%;
+		padding-left: 10px;
+	}
+	.newsletter_submit_btn
+	{
+		height: 30px;
+		width: 120px;
+	}
+	#newsletter_email::-webkit-input-placeholder
+	{
+		font-size: 10px !important;
+		padding-left: 0px;
+	}
+	#newsletter_email:-moz-placeholder /* older Firefox*/
+	{
+		font-size: 10px !important;
+		padding-left: 0px;
+	}
+	#newsletter_email::-moz-placeholder /* Firefox 19+ */ 
+	{
+		font-size: 10px !important;
+		padding-left: 0px;
+	} 
+	#newsletter_email:-ms-input-placeholder
+	{ 
+		font-size: 10px !important;
+		padding-left: 0px;
+	}
+	#newsletter_email::input-placeholder
+	{
+		font-size: 10px !important;
+		padding-left: 0px;
+	}
+	.footer_nav_container
+	{
+		margin-top: 30px;
+	}
+	.cr
+	{
+		margin-bottom: 15px;
+	}
+	.footer_nav
+	{
+		margin-bottom: 15px;
+	}
+	.footer_social
+	{
+		margin-top: 3px;
+		margin-bottom: 20px;
+	}
+	.main_slider{
+		width: 390px;
+		height: 300px;
+	}
+	#deal_img{
+		width: 380px;
+	}
+	.grid_sorting_button{
+		font-size: 9px;
+		padding-left: 5px;
+		padding-right: 5px;
+		min-width: 50px;
+		height: 25px;
+	}
 }
