@@ -24,9 +24,7 @@
 
 @media only screen and (max-width: 1600px)
 {
-	#logo{
-		display: none;
-	}
+	
 }
 
 /************
@@ -109,6 +107,9 @@
 
 @media only screen and (max-width: 1024px)
 {
+	#logo{
+		display: none;
+	}
 	
 }
 
@@ -280,6 +281,17 @@
 @media only screen and (max-width: 880px)
 {
 	#logo {
+		display: none;
+	}
+}
+
+/************
+9. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+	#logo {
 		display: block;
 		position: relative;
 		left: 350px;
@@ -290,14 +302,6 @@
 		justify-content: space-between;
 		align-items: center;
 	}
-}
-
-/************
-9. 768px
-************/
-
-@media only screen and (max-width: 768px)
-{
 	
 	
 }
