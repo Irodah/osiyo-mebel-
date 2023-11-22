@@ -24,7 +24,7 @@
 
 @media only screen and (max-width: 1600px)
 {
-	
+
 }
 
 /************
@@ -277,7 +277,6 @@
 
 @media only screen and (max-width: 880px)
 {
-
 }
 
 /************
@@ -285,7 +284,8 @@
 ************/
 
 @media only screen and (max-width: 768px)
-{	
+{
+	
 	
 }
 
@@ -962,10 +962,6 @@
 	}
 	.b{
 		font-size: 8px;
-	}
-	#logo{
-		width: 30px;
-		height: 30px;
 	}
 	
 }
