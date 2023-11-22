@@ -794,8 +794,7 @@ section
 
 .logo_container
 {
-	position: absolute;
-	top: 50%;
+	top: 20px;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
@@ -813,6 +812,11 @@ section
 .logo_container a span
 {
 	color: #fe4c50;
+}
+.d {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 /*********************************

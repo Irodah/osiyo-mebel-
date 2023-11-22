@@ -107,9 +107,6 @@
 
 @media only screen and (max-width: 1024px)
 {
-	#logo{
-		display: none;
-	}
 	
 }
 
@@ -280,9 +277,7 @@
 
 @media only screen and (max-width: 880px)
 {
-	#logo {
-		display: none;
-	}
+
 }
 
 /************
@@ -290,19 +285,7 @@
 ************/
 
 @media only screen and (max-width: 768px)
-{
-	#logo {
-		display: block;
-		position: relative;
-		left: 350px;
-	}
-	.d{
-		/* text-align: right; */
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
-	
+{	
 	
 }
 
@@ -440,9 +423,6 @@
 @media only screen and (max-width: 500px)
 {
 	
-	#logo{
-		left: 270px;
-	}
 }
 @media only screen and (max-width: 800px){
 	
@@ -699,10 +679,6 @@
 	{
 		margin-top: 5px;
 		margin-bottom: 30px;
-	}
-
-	#logo{
-		left: 200px;
 	}
 	
 	
@@ -988,8 +964,8 @@
 		font-size: 8px;
 	}
 	#logo{
-		position: relative;
-		left: 100px;
+		width: 30px;
+		height: 30px;
 	}
 	
 }
