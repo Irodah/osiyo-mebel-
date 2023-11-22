@@ -1688,3 +1688,7 @@ section
 {
 	color: #fe4c50;
 }
+
+#logo a img {
+	width: 50px;
+}
