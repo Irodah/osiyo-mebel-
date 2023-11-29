@@ -24,7 +24,7 @@
 
 @media only screen and (max-width: 1600px)
 {
-	
+
 }
 
 /************
@@ -277,7 +277,6 @@
 
 @media only screen and (max-width: 880px)
 {
-	
 }
 
 /************
@@ -286,6 +285,7 @@
 
 @media only screen and (max-width: 768px)
 {
+	
 	
 }
 
@@ -420,8 +420,11 @@
 12. 480px
 ************/
 
-@media only screen and (max-width: 480px)
+@media only screen and (max-width: 500px)
 {
+	
+}
+@media only screen and (max-width: 800px){
 	
 }
 
@@ -677,7 +680,6 @@
 		margin-top: 5px;
 		margin-bottom: 30px;
 	}
-
 	
 	
 }
@@ -943,8 +945,12 @@
 		height: 300px;
 	}
 	#deal_img{
-		width: 380px;
+		width: 300px;
 	}
+	#logo a img {
+		width: 30px;
+	}
+	
 	.grid_sorting_button{
 		font-size: 9px;
 		padding-left: 5px;
@@ -961,15 +967,8 @@
 	.b{
 		font-size: 8px;
 	}
+	
 }
-@media only screen and (max-width: 479px) {
-	.carousel-item > h3 {
-		font-size: 10px;
-	}
-	.carousel-item > p {
-		font-size: 10px;
-	}
-	.carousel-item > button {
-		font-size: 9px;
-	}
+@media only screen and (max-width: 350px) {
+	
 }
