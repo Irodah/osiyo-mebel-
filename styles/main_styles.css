@@ -794,7 +794,8 @@ section
 
 .logo_container
 {
-	top: 20px;
+	position: absolute;
+	top: 50%;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
@@ -812,11 +813,6 @@ section
 .logo_container a span
 {
 	color: #fe4c50;
-}
-.d {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 }
 
 /*********************************
@@ -1687,4 +1683,18 @@ section
 .footer_social ul li a:hover
 {
 	color: #fe4c50;
+}
+
+.d {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+}
+
+#logo a img {
+	width: 50px;
+}
+#logo a img {
+	width: 50px;
 }
