@@ -434,13 +434,16 @@
 
 @media only screen and (max-width: 479px)
 {
-	.logo_container a
-	{
-		font-size: 12px;
+	.fill_height{
+		padding-top: 25px;
 	}
-	.hamburger_container
+	.logo{
+		left: 100px;
+		top: 50px;
+	}
+	.logo a
 	{
-		margin-left: 25px;
+		font-size: 20px;
 	}
 	.hamburger_container i
 	{
@@ -692,9 +695,9 @@
 	.header{
 		width: 390px;
 	}
-	.logo_container a
+	.logo a
 	{
-		font-size: 9.5px;
+		font-size: 15px;
 	}
 	.hamburger_container
 	{
@@ -702,7 +705,7 @@
 	}
 	.hamburger_container i
 	{
-		font-size: 12px;
+		font-size: 16px;
 	}
 	.hamburger_close
 	{
@@ -711,7 +714,7 @@
 	}
 	.hamburger_close i
 	{
-		font-size: 180px;
+		font-size: 20px;
 	}
 	.hamburger_menu_content
 	{
@@ -967,7 +970,28 @@
 	.b{
 		font-size: 8px;
 	}
-	
+	.fill_height{
+		padding-top: 15px;
+	}
+	.rasm{
+		width: 60px;
+	}
+	.logo{
+		top: 43px;
+		left: 125px;
+	}
+	.new_arrivals_sorting{
+		margin-top: 40px;
+	} 
+	.phone{
+		line-height: 0px;
+	}
+	.btl{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
 }
 @media only screen and (max-width: 350px) {
 	
