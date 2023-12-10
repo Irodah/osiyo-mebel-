@@ -79,7 +79,7 @@
 	}
 	.product
 	{
-		height: 320px;
+		height: 300px;
 	}
 	.timer li
 	{
@@ -326,7 +326,7 @@
 	}
 	.product
 	{
-		height: 305px;
+		height: 280px;
 	}
 	.grid_sorting_button
 	{
@@ -443,11 +443,11 @@
 	}
 	.logo a
 	{
-		font-size: 20px;
+		font-size: 24px;
 	}
 	.hamburger_container i
 	{
-		font-size: 16px;
+		font-size: 25px;
 	}
 	.hamburger_close
 	{
@@ -530,7 +530,7 @@
 		padding-left: 10px;
 		padding-right: 10px;
 		min-width: 60px;
-		height: 35px;
+		height: 24px;
 	}
 	.product-item
 	{
@@ -683,6 +683,12 @@
 		margin-top: 5px;
 		margin-bottom: 30px;
 	}
+	.btl{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
 	
 	
 }
@@ -693,19 +699,16 @@
 @media only screen and (max-width: 400px)
 {
 	.header{
-		width: 390px;
+		width: 400px;
 	}
 	.logo a
 	{
-		font-size: 15px;
-	}
-	.hamburger_container
-	{
-		margin-left: 20px;
+		font-size: 24px;
 	}
 	.hamburger_container i
 	{
-		font-size: 16px;
+		font-size: 21px;
+		margin-right: 20px;
 	}
 	.hamburger_close
 	{
@@ -714,7 +717,7 @@
 	}
 	.hamburger_close i
 	{
-		font-size: 20px;
+		font-size: 35px;
 	}
 	.hamburger_menu_content
 	{
@@ -790,7 +793,7 @@
 		padding-left: 8px;
 		padding-right: 8px;
 		min-width: 50px;
-		height: 30px;
+		height: 24px;
 	}
 	.product-item
 	{
@@ -959,7 +962,7 @@
 		padding-left: 5px;
 		padding-right: 5px;
 		min-width: 50px;
-		height: 25px;
+		height: 24px;
 	}
 	.h{
 		font-size: 10px;
@@ -978,7 +981,7 @@
 	}
 	.logo{
 		top: 43px;
-		left: 125px;
+		left: 85px;
 	}
 	.new_arrivals_sorting{
 		margin-top: 40px;
