@@ -437,13 +437,20 @@
 	.fill_height{
 		padding-top: 25px;
 	}
-	.logo{
-		left: 100px;
-		top: 50px;
+	.rasm{
+		width: 60px;
 	}
-	.logo a
+	.logo{
+		top: 43px;
+		/* left: 80px; */
+	}
+	.logo_container a
 	{
-		font-size: 24px;
+		font-size: 12px;
+	}
+	.hamburger_container
+	{
+		margin-left: 25px;
 	}
 	.hamburger_container i
 	{
@@ -698,31 +705,31 @@
 
 @media only screen and (max-width: 400px)
 {
-	.header{
-		width: 400px;
-	}
-	.logo a
+	.logo_container a
 	{
-		font-size: 24px;
+		font-size: 12px;
+	}
+	.hamburger_container
+	{
+		margin-left: 25px;
 	}
 	.hamburger_container i
 	{
-		font-size: 21px;
-		margin-right: 20px;
+		font-size: 18px;
 	}
 	.hamburger_close
 	{
-		top: 12px;
-		right: 3px;
+		top: 14px;
+		right: 4px;
 	}
 	.hamburger_close i
 	{
-		font-size: 35px;
+		font-size: 20px;
 	}
 	.hamburger_menu_content
 	{
-		padding-right: 12px;
-		padding-top: 80px;
+		padding-right: 15px;
+		padding-top: 70px;
 	}
 	.menu_item
 	{
@@ -730,30 +737,30 @@
 	}
 	.menu_item > a
 	{
-		font-size: 10px;
-		line-height: 30px;
-		height: 30px;
+		font-size: 12px;
+		line-height: 35px;
+		height: 35px;
 	}
 	.menu_selection li a
 	{
-		font-size: 10px;
-		line-height: 30px;
-		height: 30px;
+		font-size: 12px;
+		line-height: 35px;
+		height: 35px;
 	}
 	.navbar
 	{
-		height: 60px;
+		height: 70px;
 	}
 	.navbar_user li a
 	{
-		width: 25px;
-		height: 25px;
+		width: 30px;
+		height: 30px;
 		font-size: 12px;
 	}
 	.checkout_items
 	{
-		width: 10px;
-		height: 10px;
+		width: 15px;
+		height: 15px;
 		font-size: 10px;		
 	}
 	.main_slider
@@ -981,7 +988,7 @@
 	}
 	.logo{
 		top: 43px;
-		left: 85px;
+		left: 5px;
 	}
 	.new_arrivals_sorting{
 		margin-top: 40px;
