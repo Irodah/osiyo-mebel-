@@ -442,7 +442,7 @@
 	}
 	.logo{
 		top: 43px;
-		/* left: 80px; */
+		left: 45px;
 	}
 	.logo_container a
 	{
@@ -709,10 +709,10 @@
 	{
 		font-size: 12px;
 	}
-	.hamburger_container
+	/* .hamburger_container
 	{
-		margin-left: 25px;
-	}
+		margin-left: 30px;
+	} */
 	.hamburger_container i
 	{
 		font-size: 18px;
@@ -988,7 +988,7 @@
 	}
 	.logo{
 		top: 43px;
-		left: 5px;
+		left: 45px;
 	}
 	.new_arrivals_sorting{
 		margin-top: 40px;

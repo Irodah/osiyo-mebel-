@@ -539,7 +539,7 @@
 	}
 	.logo{
 		top: 43px;
-		/* left: 80px; */
+		left: 45px;
 	}
 }
 
@@ -556,12 +556,12 @@
 	
 	.logo{
         top: 43px;
-        left: 60px;
+        /* left: 45px; */
 }
-  .hamburger_container
+  /* .hamburger_container
   {
     margin-right: 30px;
-  }
+  } */
 	.hamburger_container i
 	{
 		font-size: 18px;
@@ -696,8 +696,8 @@
 	.rasm{
 		width: 60px;
 	}
-	.logo{
+	/* .logo{
 		top: 43px;
 		left: 80px;
-	}
+	} */
 }
